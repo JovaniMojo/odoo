@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="carppoling2.list">
+      <field name="name">carppoling2 list</field>
+      <field name="model">carppoling2.carppoling2</field>
+      <field name="arch" type="xml">
+        <list>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </list>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="carppoling2.action_window">
+      <field name="name">carppoling2 window</field>
+      <field name="res_model">carppoling2.carppoling2</field>
+      <field name="view_mode">list,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="carppoling2.action_server">
+      <field name="name">carppoling2 server</field>
+      <field name="model_id" ref="model_carppoling2_carppoling2"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "list,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="carppoling2" id="carppoling2.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="carppoling2.menu_1" parent="carppoling2.menu_root"/>
+    <menuitem name="Menu 2" id="carppoling2.menu_2" parent="carppoling2.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="carppoling2.menu_1_list" parent="carppoling2.menu_1"
+              action="carppoling2.action_window"/>
+    <menuitem name="Server to list" id="carppoling2" parent="carppoling2.menu_2"
+              action="carppoling2.action_server"/>
+-->
+  </data>
+</odoo>

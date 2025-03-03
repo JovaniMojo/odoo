@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="carpool_action" model="ir.actions.act_window">
+        <field name="name">Find Carpool</field>
+        <field name="res_model">carpooling.carpooling</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <menuitem
+        id="root_menu"
+        name="Carpooling"/>
+
+    <menuitem
+        id="carpooling_menu"
+        name="Carpools and Poolers"
+        parent="carpooling.root_menu"
+        action="carpool_action"
+        sequence="10"/>
+
+
+</odoo>
