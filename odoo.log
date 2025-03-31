@@ -11370,3 +11370,1278 @@ carpooling.access_carpooling_carpooling,access_carpooling_carpooling,carpooling.
 2025-03-03 18:05:25,852 105024 INFO ? odoo.service.server: Initiating shutdown 
 2025-03-03 18:05:25,852 105024 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2025-03-03 18:05:26,076 105024 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
+2025-03-03 18:09:47,016 53424 INFO ? odoo: Odoo version 18.0 
+2025-03-03 18:09:47,016 53424 INFO ? odoo: Using configuration file at D:\Projets de dev\odoo\odoo.conf 
+2025-03-03 18:09:47,016 53424 INFO ? odoo: addons paths: ['D:\\Projets de dev\\odoo\\odoo\\addons', 'c:\\users\\modjo\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'd:\\projets de dev\\odoo\\addons', 'd:\\projets de dev\\odoo\\tutorials', 'd:\\projets de dev\\odoo\\odoo\\addons'] 
+2025-03-03 18:09:47,016 53424 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-03 18:09:48,044 53424 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-03-03 18:09:48,050 53424 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-03-03 18:09:51,832 53424 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-63KCENN:8069 
+2025-03-03 18:09:52,218 53424 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-03-03 18:09:52,225 53424 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-03 18:09:52,866 53424 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-03 18:09:53,306 53424 INFO ? odoo.modules.loading: loading 56 modules... 
+2025-03-03 18:09:58,155 53424 INFO ? odoo.modules.loading: Loading module carpooling (50/56) 
+2025-03-03 18:09:58,486 53424 INFO ? odoo.modules.registry: module carpooling: creating or updating database tables 
+2025-03-03 18:09:58,525 53424 INFO ? odoo.modules.loading: loading carpooling/security/ir.model.access.csv 
+2025-03-03 18:09:58,668 53424 INFO ? odoo.modules.loading: loading carpooling/views/carpooling_menu.xml 
+2025-03-03 18:09:58,846 53424 INFO ? odoo.modules.loading: Module carpooling loaded in 0.69s, 67 queries (+67 other) 
+2025-03-03 18:09:58,950 53424 INFO ? odoo.modules.loading: 56 modules loaded in 5.64s, 67 queries (+67 extra) 
+2025-03-03 18:09:59,305 53424 INFO ? odoo.modules.loading: Modules loaded. 
+2025-03-03 18:09:59,309 53424 INFO ? odoo.modules.registry: Caches invalidated, signaling through the database: ['default'] 
+2025-03-03 18:09:59,311 53424 INFO ? odoo.modules.registry: Registry loaded in 7.227s 
+2025-03-03 18:09:59,313 53424 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-03 18:09:59,428 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:09:59] "GET /web/service-worker.js HTTP/1.1" 200 - 382 0.522 6.825
+2025-03-03 18:09:59,821 53424 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-03 18:10:01,123 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:01] "GET /odoo/apps HTTP/1.1" 200 - 92 0.181 5.180
+2025-03-03 18:10:01,799 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:01] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.015 0.008
+2025-03-03 18:10:02,024 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:02] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.004 0.013
+2025-03-03 18:10:02,161 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:02] "POST /mail/data HTTP/1.1" 200 - 49 0.121 0.045
+2025-03-03 18:10:02,376 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:02] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.008
+2025-03-03 18:10:02,704 53424 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-03 18:10:03,392 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:03] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:10:14,768 53424 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carppoling2', defaulting to LGPL-3 
+2025-03-03 18:10:14,928 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:14] "GET /web/webclient/load_menus/822cd752e5d1e84d336b5992f79cf360eff6c4083579f7c81ccc76ee82734b4e HTTP/1.1" 200 - 144 0.064 13.360
+2025-03-03 18:10:15,373 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:15] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.009 0.024
+2025-03-03 18:10:15,382 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:15] "POST /web/action/load HTTP/1.1" 200 - 11 0.033 0.011
+2025-03-03 18:10:15,707 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:15] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 56 0.043 0.070
+2025-03-03 18:10:15,731 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.007
+2025-03-03 18:10:16,126 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:16] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 56 0.062 0.033
+2025-03-03 18:10:16,181 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:16] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.013 0.119
+2025-03-03 18:10:39,259 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:39] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.017
+2025-03-03 18:10:39,626 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:39] "POST /web/dataset/call_kw/utm.campaign/get_views HTTP/1.1" 200 - 24 0.068 0.062
+2025-03-03 18:10:39,817 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:39] "POST /web/dataset/call_kw/utm.campaign/web_search_read HTTP/1.1" 200 - 7 0.161 0.011
+2025-03-03 18:10:39,964 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:39] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:10:40,411 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:40] "GET /web/image/res.users/1/avatar_128 HTTP/1.1" 200 - 9 0.008 0.040
+2025-03-03 18:10:46,615 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:46] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.010
+2025-03-03 18:10:46,991 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:46] "POST /web/dataset/call_kw/carpooling.carpooling/get_views HTTP/1.1" 200 - 10 0.010 0.019
+2025-03-03 18:10:47,211 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:10:47] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 2 0.002 0.004
+2025-03-03 18:11:26,528 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:11:26] "POST /web/dataset/call_kw/carpooling.carpooling/web_save HTTP/1.1" 200 - 5 0.023 0.012
+2025-03-03 18:11:54,384 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 18:11:54,396 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.012s 
+2025-03-03 18:11:54,401 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 18:11:54,425 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 18:12:29,068 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:12:29] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-03 18:12:31,386 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:12:31] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.002 0.007
+2025-03-03 18:12:33,292 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:12:33] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.010
+2025-03-03 18:14:57,680 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:14:57] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.004
+2025-03-03 18:14:59,795 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:14:59] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-03 18:15:02,075 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:15:02] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:15:03,678 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:15:03] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:15:56,593 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:15:56] "POST /web/dataset/call_kw/carpooling.carpooling/web_save HTTP/1.1" 200 - 3 0.002 0.032
+2025-03-03 18:15:59,775 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:15:59] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-03 18:16:01,631 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:01] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:16:03,332 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:03] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.002 0.010
+2025-03-03 18:16:05,204 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:05] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:16:08,965 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:08] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.003
+2025-03-03 18:16:12,032 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:12] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.000 0.009
+2025-03-03 18:16:38,775 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:38] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.002 0.006
+2025-03-03 18:16:39,970 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:39] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:16:42,241 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:42] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.007
+2025-03-03 18:16:44,188 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:44] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.020 0.008
+2025-03-03 18:16:47,071 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:47] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:16:53,099 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:53] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.003
+2025-03-03 18:16:54,179 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:54] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.002 0.011
+2025-03-03 18:16:55,139 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:55] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-03 18:16:59,346 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:16:59] "POST /web/action/load HTTP/1.1" 200 - 11 0.079 0.013
+2025-03-03 18:17:00,219 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:17:00] "POST /web/dataset/call_kw/account.move/get_views HTTP/1.1" 200 - 102 0.219 0.320
+2025-03-03 18:17:00,430 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:17:00] "POST /web/dataset/call_kw/account.move/web_search_read HTTP/1.1" 200 - 15 0.161 0.032
+2025-03-03 18:17:20,963 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:17:20] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.007
+2025-03-03 18:17:22,674 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:17:22] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-03 18:17:26,697 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:17:26] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-03 18:17:39,392 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:17:39] "POST /web/dataset/call_kw/carpooling.carpooling/web_save HTTP/1.1" 200 - 3 0.003 0.007
+2025-03-03 18:18:06,383 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:18:06] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.004
+2025-03-03 18:18:07,196 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:18:07] "POST /web/dataset/call_kw/carpooling.carpooling/onchange HTTP/1.1" 200 - 1 0.001 0.006
+2025-03-03 18:18:55,597 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 18:18:55] "POST /web/dataset/call_kw/carpooling.carpooling/web_save HTTP/1.1" 200 - 3 0.002 0.007
+2025-03-03 18:22:04,949 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 18:22:04,970 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.021s 
+2025-03-03 18:22:04,976 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 18:22:04,979 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 18:24:52,097 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-03 18:24:52,102 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.005s 
+2025-03-03 18:24:52,107 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-03 18:24:52,113 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-03 18:24:52,124 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-03 18:24:52,133 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.009s 
+2025-03-03 18:24:52,136 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-03 18:24:52,141 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-03 18:24:52,150 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-03 18:24:52,156 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.007s 
+2025-03-03 18:24:52,160 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-03 18:24:52,164 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-03 18:24:52,174 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-03 18:24:52,187 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.013s 
+2025-03-03 18:24:52,192 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-03 18:24:52,197 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-03 18:24:52,209 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-03 18:24:52,218 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.009s 
+2025-03-03 18:24:52,222 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-03 18:24:52,227 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-03 18:32:15,222 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 18:32:15,226 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.004s 
+2025-03-03 18:32:15,241 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 18:32:15,244 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 18:42:25,670 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 18:42:25,693 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.022s 
+2025-03-03 18:42:25,699 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 18:42:25,704 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 18:48:05,922 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-03 18:48:52,811 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-03 18:52:36,141 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 18:52:36,166 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.024s 
+2025-03-03 18:52:36,172 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 18:52:36,181 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 19:02:46,642 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 19:02:46,669 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.027s 
+2025-03-03 19:02:46,676 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 19:02:46,684 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 19:11:55,956 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 19:11:55,967 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.011s 
+2025-03-03 19:11:55,982 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 19:11:55,990 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 19:12:53,606 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-03 19:12:53,622 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 19:12:53] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.005 0.018
+2025-03-03 19:12:54,031 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 19:12:54] "POST /bus/get_autovacuum_info HTTP/1.1" 200 - 4 0.007 0.061
+2025-03-03 19:22:06,463 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 19:22:06,470 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.006s 
+2025-03-03 19:22:06,475 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 19:22:06,483 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 19:24:08,535 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-03 19:24:08,546 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.010s 
+2025-03-03 19:24:08,551 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-03 19:24:08,558 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-03 19:24:08,569 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-03 19:24:08,583 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.014s 
+2025-03-03 19:24:08,587 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-03 19:24:08,597 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-03 19:24:52,944 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-03 19:24:52,964 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.020s 
+2025-03-03 19:24:52,979 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-03 19:24:52,993 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-03 19:24:53,016 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-03 19:24:53,039 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.022s 
+2025-03-03 19:24:53,047 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-03 19:24:53,058 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-03 19:24:53,081 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-03 19:24:53,097 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.016s 
+2025-03-03 19:24:53,108 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-03 19:24:53,119 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-03 19:31:53,219 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 19:31:53,227 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.008s 
+2025-03-03 19:31:53,242 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 19:31:53,256 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 19:41:53,606 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 19:41:53,627 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.022s 
+2025-03-03 19:41:53,634 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 19:41:53,640 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 19:51:53,973 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 19:51:54,016 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.043s 
+2025-03-03 19:51:54,029 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 19:51:54,040 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 20:01:54,330 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 20:01:54,357 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.027s 
+2025-03-03 20:01:54,363 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 20:01:54,372 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 20:11:54,741 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 20:11:54,765 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.024s 
+2025-03-03 20:11:54,772 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 20:11:54,778 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 20:21:55,209 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 20:21:55,247 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.038s 
+2025-03-03 20:21:55,255 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 20:21:55,264 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 20:24:09,136 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-03 20:24:09,149 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.013s 
+2025-03-03 20:24:09,156 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-03 20:24:09,165 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-03 20:24:09,179 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-03 20:24:09,197 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.018s 
+2025-03-03 20:24:09,202 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-03 20:24:09,208 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-03 20:24:55,332 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-03 20:24:55,355 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.023s 
+2025-03-03 20:24:55,364 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-03 20:24:55,376 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-03 20:24:55,406 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-03 20:24:55,427 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.021s 
+2025-03-03 20:24:55,432 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-03 20:24:55,452 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-03 20:24:55,479 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-03 20:24:55,492 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.012s 
+2025-03-03 20:24:55,496 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-03 20:24:55,501 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-03 20:31:55,621 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 20:31:55,629 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.008s 
+2025-03-03 20:31:55,644 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 20:31:55,657 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 20:41:56,020 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 20:41:56,046 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.026s 
+2025-03-03 20:41:56,053 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 20:41:56,059 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 20:42:11,253 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-03 20:42:11,273 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 20:42:11] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.008 0.052
+2025-03-03 20:51:56,584 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 20:51:56,610 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.025s 
+2025-03-03 20:51:56,617 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 20:51:56,625 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 21:01:57,127 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 21:01:57,151 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.023s 
+2025-03-03 21:01:57,158 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 21:01:57,163 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 21:11:57,671 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 21:11:57,687 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-03 21:11:57,692 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 21:11:57,696 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 21:21:58,043 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 21:21:58,064 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.021s 
+2025-03-03 21:21:58,071 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 21:21:58,077 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 21:24:09,921 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-03 21:24:09,928 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.006s 
+2025-03-03 21:24:09,931 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-03 21:24:09,937 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-03 21:24:09,948 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-03 21:24:09,960 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.012s 
+2025-03-03 21:24:09,964 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-03 21:24:09,969 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-03 21:24:58,145 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-03 21:24:58,155 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.010s 
+2025-03-03 21:24:58,161 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-03 21:24:58,166 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-03 21:24:58,178 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-03 21:24:58,187 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.009s 
+2025-03-03 21:24:58,192 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-03 21:24:58,198 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-03 21:24:58,260 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-03 21:24:58,270 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.010s 
+2025-03-03 21:24:58,275 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-03 21:24:58,282 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-03 21:31:58,371 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 21:31:58,378 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.007s 
+2025-03-03 21:31:58,383 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 21:31:58,389 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 21:42:06,722 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 21:42:06,748 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.025s 
+2025-03-03 21:42:07,325 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 21:42:07,493 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 21:51:13,699 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-03 21:51:13,718 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 21:51:13] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.000 0.156
+2025-03-03 21:52:08,398 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 21:52:08,422 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.023s 
+2025-03-03 21:52:08,429 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 21:52:08,435 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 22:02:09,077 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 22:02:09,095 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-03 22:02:09,101 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 22:02:09,105 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 22:11:58,809 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 22:11:58,817 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.007s 
+2025-03-03 22:11:58,822 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 22:11:58,829 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 22:22:09,500 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 22:22:09,518 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-03 22:22:09,522 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 22:22:09,525 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 22:24:09,831 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-03 22:24:09,841 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.010s 
+2025-03-03 22:24:09,845 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-03 22:24:09,850 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-03 22:24:09,859 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-03 22:24:09,865 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.005s 
+2025-03-03 22:24:09,870 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-03 22:24:09,870 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-03 22:25:09,893 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-03 22:25:09,911 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.018s 
+2025-03-03 22:25:09,923 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-03 22:25:09,932 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-03 22:25:09,946 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-03 22:25:09,955 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.008s 
+2025-03-03 22:25:09,959 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-03 22:25:09,964 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-03 22:25:09,973 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-03 22:25:09,973 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.000s 
+2025-03-03 22:25:09,973 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-03 22:25:09,973 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-03 22:32:10,358 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 22:32:10,364 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.006s 
+2025-03-03 22:32:10,483 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 22:32:10,488 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 22:42:10,818 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 22:42:10,833 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.015s 
+2025-03-03 22:42:10,839 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 22:42:10,845 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 22:52:11,226 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 22:52:11,254 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.028s 
+2025-03-03 22:52:11,261 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 22:52:11,267 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 23:02:11,533 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 23:02:11,550 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-03 23:02:11,556 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 23:02:11,561 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 23:09:23,570 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-03 23:09:27,582 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:27] "GET /odoo/action-350/4 HTTP/1.1" 200 - 15 0.177 4.256
+2025-03-03 23:09:29,635 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:29] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.063 0.569
+2025-03-03 23:09:29,894 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:29] "POST /web/action/load HTTP/1.1" 200 - 9 0.535 0.041
+2025-03-03 23:09:31,069 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:31] "POST /web/dataset/call_kw/carpooling.carpooling/get_views HTTP/1.1" 200 - 2 0.176 0.566
+2025-03-03 23:09:31,070 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:31] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.085 1.210
+2025-03-03 23:09:31,070 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.545 0.756
+2025-03-03 23:09:31,137 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:31] "POST /mail/data HTTP/1.1" 200 - 29 0.416 1.137
+2025-03-03 23:09:31,427 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:31] "POST /web/dataset/call_kw/carpooling.carpooling/web_read HTTP/1.1" 200 - 2 0.000 0.009
+2025-03-03 23:09:31,443 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:31] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.010
+2025-03-03 23:09:33,363 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:33] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.252
+2025-03-03 23:09:34,359 9360 INFO ? odoo: Odoo version 18.0 
+2025-03-03 23:09:34,359 9360 INFO ? odoo: Using configuration file at D:\Projets de dev\odoo\odoo.conf 
+2025-03-03 23:09:34,359 9360 INFO ? odoo: addons paths: ['D:\\Projets de dev\\odoo\\odoo\\addons', 'c:\\users\\modjo\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'd:\\projets de dev\\odoo\\addons', 'd:\\projets de dev\\odoo\\tutorials', 'd:\\projets de dev\\odoo\\odoo\\addons'] 
+2025-03-03 23:09:34,359 9360 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-03 23:09:34,927 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:34] "POST /web/action/load HTTP/1.1" 200 - 10 0.016 0.013
+2025-03-03 23:09:35,259 9360 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-03-03 23:09:35,264 9360 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-03-03 23:09:35,438 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:35] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.001 0.185
+2025-03-03 23:09:35,563 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.052
+2025-03-03 23:09:36,017 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.134 0.107
+2025-03-03 23:09:37,752 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:37] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 1.974
+2025-03-03 23:09:39,367 9360 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-63KCENN:8069 
+2025-03-03 23:09:40,786 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.035 0.041
+2025-03-03 23:09:41,152 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:09:41] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.016 0.117
+2025-03-03 23:10:23,579 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.142 0.080
+2025-03-03 23:10:23,621 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:23] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.008 0.005
+2025-03-03 23:10:23,993 53424 INFO ? werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:23] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - 0 0.000 0.096
+2025-03-03 23:10:39,524 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:39] "POST /web/action/load HTTP/1.1" 200 - 9 0.009 0.009
+2025-03-03 23:10:40,000 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:40] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 12 0.055 0.086
+2025-03-03 23:10:40,131 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:40] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.003 0.014
+2025-03-03 23:10:42,062 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:42] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.006 0.029
+2025-03-03 23:10:42,388 53424 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-03 23:10:43,210 53424 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-03 23:10:44,760 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:44] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 1556 1.183 1.198
+2025-03-03 23:10:47,049 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.039 0.029
+2025-03-03 23:10:47,362 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.060
+2025-03-03 23:10:53,698 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:53] "POST /web/action/load HTTP/1.1" 200 - 9 0.020 0.045
+2025-03-03 23:10:58,225 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:58] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 391 0.687 3.650
+2025-03-03 23:10:58,722 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:58] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 125 0.314 0.161
+2025-03-03 23:10:59,232 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:59] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.005
+2025-03-03 23:10:59,302 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:10:59] "POST /base_setup/data HTTP/1.1" 200 - 6 0.037 0.020
+2025-03-03 23:11:09,371 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.000 0.007
+2025-03-03 23:11:10,303 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:10] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.477
+2025-03-03 23:11:10,387 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:10] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.058 0.044
+2025-03-03 23:11:12,829 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.066 0.032
+2025-03-03 23:11:12,898 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:12] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.160
+2025-03-03 23:11:20,689 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:20] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.079 0.031
+2025-03-03 23:11:21,021 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:21] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.010 0.010
+2025-03-03 23:11:33,352 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:33] "POST /web/dataset/call_button/ir.module.module/more_info HTTP/1.1" 200 - 1 0.000 0.060
+2025-03-03 23:11:33,739 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:33] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 7 0.005 0.019
+2025-03-03 23:11:35,024 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:35] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 10 0.060 0.772
+2025-03-03 23:11:35,271 53424 INFO odoo werkzeug: 127.0.0.1 - - [03/Mar/2025 23:11:35] "GET /web/image/ir.module.module/629/icon_image?unique=1741043442000 HTTP/1.1" 200 - 3 0.001 0.162
+2025-03-03 23:11:59,598 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 23:11:59,611 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.012s 
+2025-03-03 23:11:59,614 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 23:11:59,619 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 23:18:44,631 9360 INFO ? odoo.service.server: Initiating shutdown 
+2025-03-03 23:18:44,631 9360 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-03-03 23:18:44,702 9360 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 2 connections  
+2025-03-03 23:22:10,073 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 23:22:10,094 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.021s 
+2025-03-03 23:22:10,100 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 23:22:10,107 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 23:24:11,843 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-03 23:24:11,849 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.006s 
+2025-03-03 23:24:11,854 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-03 23:24:11,860 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-03 23:24:11,870 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-03 23:24:11,882 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.011s 
+2025-03-03 23:24:11,886 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-03 23:24:11,889 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-03 23:25:11,909 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-03 23:25:11,918 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.009s 
+2025-03-03 23:25:11,922 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-03 23:25:11,928 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-03 23:25:11,937 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-03 23:25:11,943 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2025-03-03 23:25:11,947 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-03 23:25:11,953 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-03 23:25:11,962 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-03 23:25:11,970 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.008s 
+2025-03-03 23:25:11,973 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-03 23:25:11,978 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-03 23:32:12,063 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 23:32:12,071 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.007s 
+2025-03-03 23:32:12,080 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 23:32:12,086 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 23:42:12,349 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 23:42:12,365 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.015s 
+2025-03-03 23:42:12,370 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 23:42:12,374 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-03 23:52:13,795 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-03 23:52:13,814 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-03 23:52:14,118 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-03 23:52:14,128 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 00:02:14,684 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 00:02:14,702 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 00:02:14,707 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 00:02:14,711 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 00:12:00,426 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 00:12:00,442 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 00:12:00,473 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 00:12:00,473 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 00:22:11,041 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 00:22:11,057 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.015s 
+2025-03-04 00:22:11,061 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 00:22:11,065 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 00:24:13,122 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 00:24:13,253 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.130s 
+2025-03-04 00:24:13,264 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 00:24:13,301 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 00:24:13,328 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 00:24:13,555 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.226s 
+2025-03-04 00:24:13,566 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 00:24:13,579 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 00:24:57,944 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 00:24:58,036 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 00:24:58] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.068 0.521
+2025-03-04 00:25:14,626 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 00:25:14,745 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.119s 
+2025-03-04 00:25:14,749 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 00:25:14,754 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 00:25:14,763 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 00:25:14,828 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.065s 
+2025-03-04 00:25:14,832 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 00:25:14,836 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 00:25:14,844 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 00:25:14,853 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.008s 
+2025-03-04 00:25:14,856 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 00:25:14,860 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 00:32:15,129 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 00:32:15,138 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.008s 
+2025-03-04 00:32:15,145 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 00:32:15,154 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 00:42:15,556 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 00:42:15,580 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.023s 
+2025-03-04 00:42:15,749 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 00:42:15,754 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 00:52:16,062 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 00:52:16,076 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 00:52:16,080 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 00:52:16,104 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:02:37,542 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 01:02:42,661 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 5.118s 
+2025-03-04 01:02:43,102 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 01:02:43,116 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:12:02,888 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 01:12:02,897 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.009s 
+2025-03-04 01:12:02,904 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 01:12:02,911 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:22:13,650 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 01:22:13,666 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 01:22:13,670 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 01:22:13,673 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:24:15,743 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 01:24:15,753 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.009s 
+2025-03-04 01:24:15,802 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 01:24:15,809 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 01:24:15,940 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 01:24:15,963 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.024s 
+2025-03-04 01:24:16,002 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 01:24:16,091 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 01:24:43,488 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 01:24:43,513 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.025s 
+2025-03-04 01:24:43,552 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 01:24:43,559 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 01:24:43,576 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 01:24:43,589 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.013s 
+2025-03-04 01:24:43,596 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 01:24:43,604 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 01:24:43,618 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 01:24:43,627 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.009s 
+2025-03-04 01:24:43,630 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 01:24:43,635 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 01:32:25,166 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 01:32:25,262 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.095s 
+2025-03-04 01:32:25,270 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 01:32:25,283 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:42:35,695 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 01:42:35,713 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 01:42:35,717 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 01:42:35,720 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:52:44,329 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 01:52:44,343 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 01:52:44,347 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 01:52:44,350 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 01:53:30,904 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 01:53:30,909 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 01:53:30] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.000 0.019
+2025-03-04 02:00:44,635 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) starting 
+2025-03-04 02:00:45,368 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) done in 0.733s 
+2025-03-04 02:00:45,372 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) processed 0 records, 0 records remaining 
+2025-03-04 02:00:45,376 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Account: Post draft entries with auto_post enabled and accounting date up to today' (18) completed 
+2025-03-04 02:01:55,187 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 02:01:55,207 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-04 02:01:55,214 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 02:01:55,222 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 02:12:05,598 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 02:12:05,613 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 02:12:05,617 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 02:12:05,621 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 02:22:34,321 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 02:22:34,345 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.024s 
+2025-03-04 02:22:34,635 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 02:22:34,650 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 02:24:37,133 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 02:24:37,651 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.518s 
+2025-03-04 02:24:37,977 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 02:24:38,000 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 02:24:38,426 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 02:24:39,783 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 1.356s 
+2025-03-04 02:24:39,791 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 02:24:40,078 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 02:24:40,369 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 02:24:41,787 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 1.417s 
+2025-03-04 02:24:41,795 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 02:24:42,116 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 02:24:42,493 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 02:24:43,176 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.682s 
+2025-03-04 02:24:43,181 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 02:24:43,493 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 02:24:46,870 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 02:24:47,569 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.699s 
+2025-03-04 02:24:47,742 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 02:24:47,747 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 02:32:48,242 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 02:32:48,247 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.004s 
+2025-03-04 02:32:48,320 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 02:32:48,331 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 02:42:00,892 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 02:42:00,897 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.005s 
+2025-03-04 02:42:00,901 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 02:42:00,906 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 02:52:11,394 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 02:52:11,412 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 02:52:11,535 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 02:52:11,544 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 03:02:22,143 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 03:02:22,162 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.019s 
+2025-03-04 03:02:22,167 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 03:02:22,171 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 03:07:03,029 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 03:07:03,034 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 03:07:03] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.002 0.022
+2025-03-04 03:12:32,848 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 03:12:32,867 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.019s 
+2025-03-04 03:12:32,872 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 03:12:32,876 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 03:22:43,284 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 03:22:43,304 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.019s 
+2025-03-04 03:22:43,311 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 03:22:43,315 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 03:24:45,403 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 03:24:45,419 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.016s 
+2025-03-04 03:24:45,425 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 03:24:45,432 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 03:24:45,447 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 03:24:45,457 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.010s 
+2025-03-04 03:24:45,462 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 03:24:45,466 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 03:24:45,477 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 03:24:45,484 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2025-03-04 03:24:45,487 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 03:24:45,491 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 03:24:45,501 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 03:24:45,511 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.010s 
+2025-03-04 03:24:45,515 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 03:24:45,518 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 03:24:45,527 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 03:24:45,534 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.006s 
+2025-03-04 03:24:45,537 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 03:24:45,541 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 03:32:49,144 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 03:32:49,159 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 03:32:49,170 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 03:32:49,183 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 03:42:02,921 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 03:42:02,925 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.004s 
+2025-03-04 03:42:02,929 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 03:42:02,933 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 03:52:13,382 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 03:52:13,396 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.015s 
+2025-03-04 03:52:13,731 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 03:52:13,738 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 04:02:24,320 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 04:02:24,343 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.023s 
+2025-03-04 04:02:24,349 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 04:02:24,355 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 04:12:34,773 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 04:12:34,791 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-04 04:12:34,796 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 04:12:34,800 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 04:22:45,414 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 04:22:45,430 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 04:22:45,434 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 04:22:45,438 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 04:22:50,967 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 04:22:51,082 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 04:22:51] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.002 0.151
+2025-03-04 04:24:47,518 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 04:24:47,536 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.017s 
+2025-03-04 04:24:47,541 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 04:24:47,550 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 04:24:47,564 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 04:24:47,572 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.008s 
+2025-03-04 04:24:47,575 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 04:24:47,579 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 04:24:47,588 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 04:24:47,595 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.007s 
+2025-03-04 04:24:47,598 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 04:24:47,603 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 04:24:47,612 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 04:24:47,623 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.010s 
+2025-03-04 04:24:47,626 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 04:24:47,631 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 04:24:47,639 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 04:24:47,645 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.005s 
+2025-03-04 04:24:47,647 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 04:24:47,650 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 04:31:54,866 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 04:31:54,883 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 04:31:54,889 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 04:31:54,897 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 04:42:05,295 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 04:42:05,313 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-04 04:42:05,318 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 04:42:05,322 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 04:52:28,974 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 04:52:31,812 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 2.838s 
+2025-03-04 04:52:32,534 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 04:52:32,541 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 05:02:43,050 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 05:02:43,064 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 05:02:43,495 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 05:02:43,502 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 05:12:53,500 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 05:12:53,517 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 05:12:53,872 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 05:12:53,879 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 05:21:54,751 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 05:21:54,765 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.011s 
+2025-03-04 05:21:54,770 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 05:21:54,776 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 05:24:55,713 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 05:24:55,727 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.015s 
+2025-03-04 05:24:55,734 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 05:24:55,743 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 05:24:55,759 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 05:24:55,773 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.014s 
+2025-03-04 05:24:55,779 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 05:24:55,784 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 05:24:55,795 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 05:24:55,804 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.009s 
+2025-03-04 05:24:55,808 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 05:24:55,814 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 05:24:55,826 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 05:24:55,841 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.013s 
+2025-03-04 05:24:55,846 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 05:24:55,850 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 05:24:55,888 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 05:24:55,895 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.007s 
+2025-03-04 05:24:55,898 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 05:24:55,901 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 05:31:56,113 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 05:31:56,124 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.011s 
+2025-03-04 05:31:56,132 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 05:31:56,141 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 05:37:10,105 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 05:37:10,194 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 05:37:10] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.001 0.109
+2025-03-04 05:41:56,851 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 05:41:56,866 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.015s 
+2025-03-04 05:41:56,870 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 05:41:56,874 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 05:51:57,350 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 05:51:57,366 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 05:51:57,371 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 05:51:57,375 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:01:58,147 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 06:01:58,163 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 06:01:58,167 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 06:01:58,171 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:11:53,322 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 06:11:53,326 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.004s 
+2025-03-04 06:11:53,330 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 06:11:53,334 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:21:58,712 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 06:21:58,729 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 06:21:58,734 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 06:21:58,738 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:24:58,940 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 06:24:58,956 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.016s 
+2025-03-04 06:24:58,964 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 06:24:58,971 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 06:24:58,985 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 06:24:58,994 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.009s 
+2025-03-04 06:24:58,998 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 06:24:59,003 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 06:24:59,014 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 06:24:59,020 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2025-03-04 06:24:59,024 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 06:24:59,027 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 06:24:59,119 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 06:24:59,146 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.026s 
+2025-03-04 06:24:59,157 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 06:24:59,163 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 06:24:59,172 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 06:24:59,180 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.007s 
+2025-03-04 06:24:59,182 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 06:24:59,186 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 06:31:59,945 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 06:31:59,954 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.009s 
+2025-03-04 06:32:00,004 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 06:32:00,010 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:42:00,313 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 06:42:00,332 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-04 06:42:00,338 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 06:42:00,343 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:52:00,738 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 06:52:00,755 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 06:52:00,760 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 06:52:00,764 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 06:59:42,891 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 06:59:43,116 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 06:59:43] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.001 0.240
+2025-03-04 07:02:01,102 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 07:02:01,122 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.019s 
+2025-03-04 07:02:01,128 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 07:02:01,132 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 07:11:53,736 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 07:11:53,743 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.007s 
+2025-03-04 07:11:53,766 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 07:11:53,772 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 07:22:01,746 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 07:22:01,774 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.028s 
+2025-03-04 07:22:01,783 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 07:22:01,791 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 07:25:01,900 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 07:25:01,921 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.020s 
+2025-03-04 07:25:01,932 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 07:25:01,947 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 07:25:02,399 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 07:25:02,427 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.027s 
+2025-03-04 07:25:02,440 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 07:25:02,453 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 07:25:02,480 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 07:25:02,503 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.022s 
+2025-03-04 07:25:02,514 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 07:25:02,534 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 07:25:02,565 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 07:25:02,590 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.025s 
+2025-03-04 07:25:02,596 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 07:25:02,603 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 07:25:02,617 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 07:25:02,630 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.013s 
+2025-03-04 07:25:02,635 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 07:25:02,643 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 07:32:02,960 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 07:32:02,974 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 07:32:02,990 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 07:32:03,005 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 07:42:03,727 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 07:42:03,757 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.030s 
+2025-03-04 07:42:03,766 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 07:42:03,775 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 07:52:04,730 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 07:52:04,744 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.014s 
+2025-03-04 07:52:04,749 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 07:52:04,754 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 08:02:05,456 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 08:02:05,479 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.023s 
+2025-03-04 08:02:05,486 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 08:02:05,492 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 08:11:54,381 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 08:11:54,397 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.015s 
+2025-03-04 08:11:54,660 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 08:11:54,679 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 08:17:00,319 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 08:17:00,430 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 08:17:00] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.002 0.132
+2025-03-04 08:22:05,637 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 08:22:05,645 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.007s 
+2025-03-04 08:22:05,649 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 08:22:05,657 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 08:25:05,984 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 08:25:06,007 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.022s 
+2025-03-04 08:25:06,018 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 08:25:06,036 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 08:25:06,070 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 08:25:06,087 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.016s 
+2025-03-04 08:25:06,095 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 08:25:06,105 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 08:25:06,126 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 08:25:06,144 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.018s 
+2025-03-04 08:25:06,152 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 08:25:06,161 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 08:25:06,178 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 08:25:06,194 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.016s 
+2025-03-04 08:25:06,201 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 08:25:06,208 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 08:25:06,338 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 08:25:06,364 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.026s 
+2025-03-04 08:25:06,374 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 08:25:06,393 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 08:32:06,645 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 08:32:06,662 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.016s 
+2025-03-04 08:32:06,672 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 08:32:06,688 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 08:42:07,215 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 08:42:07,239 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.023s 
+2025-03-04 08:42:07,245 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 08:42:07,252 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 08:52:08,050 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 08:52:08,067 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 08:52:08,072 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 08:52:08,077 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 09:02:08,415 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 09:02:08,468 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.053s 
+2025-03-04 09:02:08,473 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 09:02:08,478 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 09:11:57,204 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 09:11:57,209 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.005s 
+2025-03-04 09:11:57,390 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 09:11:57,398 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 09:22:08,045 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 09:22:08,064 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.019s 
+2025-03-04 09:22:08,070 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 09:22:08,073 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 09:24:08,891 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 09:24:08,911 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.019s 
+2025-03-04 09:24:08,919 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 09:24:08,928 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 09:24:08,944 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 09:24:08,958 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.014s 
+2025-03-04 09:24:08,963 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 09:24:08,969 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 09:25:09,117 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 09:25:09,130 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.013s 
+2025-03-04 09:25:09,139 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 09:25:09,149 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 09:25:09,159 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 09:25:09,167 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.007s 
+2025-03-04 09:25:09,170 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 09:25:09,174 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 09:25:09,183 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 09:25:09,189 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.006s 
+2025-03-04 09:25:09,192 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 09:25:09,196 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 09:32:09,455 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 09:32:09,473 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 09:32:09,483 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 09:32:09,489 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 09:33:09,618 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) starting 
+2025-03-04 09:33:09,794 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) done in 0.176s 
+2025-03-04 09:33:09,801 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) processed 0 records, 0 records remaining 
+2025-03-04 09:33:09,808 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Send invoices automatically' (19) completed 
+2025-03-04 09:34:09,891 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (21) starting 
+2025-03-04 09:34:10,021 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (21) done in 0.130s 
+2025-03-04 09:34:10,025 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (21) processed 0 records, 0 records remaining 
+2025-03-04 09:34:10,066 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Sales: Send pending emails' (21) completed 
+2025-03-04 09:42:10,308 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 09:42:10,333 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.025s 
+2025-03-04 09:42:10,339 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 09:42:10,343 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 09:47:03,076 53424 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 09:47:03,220 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 09:47:03] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 2 0.000 0.161
+2025-03-04 09:52:10,757 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 09:52:10,777 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.019s 
+2025-03-04 09:52:10,782 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 09:52:10,786 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 10:02:11,234 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 10:02:11,251 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.017s 
+2025-03-04 10:02:11,256 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 10:02:11,259 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 10:11:58,307 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 10:11:58,307 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.000s 
+2025-03-04 10:11:58,488 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 10:11:58,491 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 10:18:41,521 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:18:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.148
+2025-03-04 10:18:41,623 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:18:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.106 0.109
+2025-03-04 10:18:43,003 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:18:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.041 1.479
+2025-03-04 10:19:04,086 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:04] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.110 0.242
+2025-03-04 10:19:04,097 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:04] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.062 0.299
+2025-03-04 10:19:12,395 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:12] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.040 0.023
+2025-03-04 10:19:13,141 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.019 0.416
+2025-03-04 10:19:13,353 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /google_gmail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-03-04 10:19:13,651 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /account/static/description/l10n.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-03-04 10:19:13,716 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /mail_bot/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-03-04 10:19:13,718 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /partner_autocomplete/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2025-03-04 10:19:13,749 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /payment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-03-04 10:19:13,752 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2025-03-04 10:19:13,767 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /product/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-03-04 10:19:13,968 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:13] "GET /iap/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-03-04 10:19:14,059 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2025-03-04 10:19:14,069 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /spreadsheet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2025-03-04 10:19:14,072 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /snailmail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2025-03-04 10:19:14,076 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /spreadsheet_dashboard/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2025-03-04 10:19:14,077 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /utm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2025-03-04 10:19:14,284 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /web_unsplash/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-03-04 10:19:14,413 53424 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 10:19:14] "GET /board/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2025-03-04 10:20:49,440 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:20:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.042 0.049
+2025-03-04 10:20:49,532 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:20:49] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.011 0.170
+2025-03-04 10:20:59,045 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:20:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.034 0.027
+2025-03-04 10:20:59,401 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:20:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.005 0.148
+2025-03-04 10:21:09,471 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.086 0.036
+2025-03-04 10:21:09,664 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:09] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.028 0.020
+2025-03-04 10:21:16,316 53424 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Real Estate'] to user admin #2 via 127.0.0.1 
+2025-03-04 10:21:16,316 53424 INFO odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2025-03-04 10:21:16,322 53424 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Real Estate'] to user admin #2 via 127.0.0.1 
+2025-03-04 10:21:16,836 53424 INFO odoo odoo.modules.loading: loading 1 modules... 
+2025-03-04 10:21:17,117 53424 INFO odoo odoo.modules.loading: 1 modules loaded in 0.27s, 0 queries (+0 extra) 
+2025-03-04 10:21:17,738 53424 INFO odoo odoo.modules.loading: updating modules list 
+2025-03-04 10:21:17,740 53424 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2025-03-04 10:21:19,285 53424 INFO odoo odoo.modules.loading: loading 56 modules... 
+2025-03-04 10:21:19,816 53424 INFO odoo odoo.modules.loading: 56 modules loaded in 0.53s, 0 queries (+0 extra) 
+2025-03-04 10:21:19,818 53424 INFO odoo odoo.modules.loading: loading 57 modules... 
+2025-03-04 10:21:19,818 53424 INFO odoo odoo.modules.loading: Loading module estate (2/57) 
+2025-03-04 10:21:23,009 53424 INFO odoo odoo.modules.loading: Module estate loaded in 3.19s, 15 queries (+15 other) 
+2025-03-04 10:21:23,009 53424 INFO odoo odoo.modules.loading: 57 modules loaded in 3.19s, 15 queries (+15 extra) 
+2025-03-04 10:21:26,096 53424 INFO odoo odoo.modules.loading: Modules loaded. 
+2025-03-04 10:21:26,125 53424 INFO odoo odoo.modules.registry: Registry changed, signaling through the database 
+2025-03-04 10:21:26,127 53424 INFO odoo odoo.modules.registry: Registry loaded in 9.583s 
+2025-03-04 10:21:26,127 53424 INFO odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2025-03-04 10:21:26,170 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:26] "POST /web/dataset/call_button/ir.module.module/button_immediate_install HTTP/1.1" 200 - 2697 3.770 6.125
+2025-03-04 10:21:26,963 53424 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-04 10:21:27,611 53424 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 10:21:28,888 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:28] "GET /odoo HTTP/1.1" 200 - 92 0.218 1.710
+2025-03-04 10:21:29,406 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:29] "GET /web/webclient/translations/c9099ca8f173f0bc38a7782bc8ea79549efaf525?lang=en_US HTTP/1.1" 200 - 1 0.003 0.060
+2025-03-04 10:21:30,200 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "POST /web/action/load HTTP/1.1" 200 - 7 0.060 0.122
+2025-03-04 10:21:30,201 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "POST /mail/data HTTP/1.1" 200 - 48 0.065 0.124
+2025-03-04 10:21:30,201 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.041 0.070
+2025-03-04 10:21:30,265 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.020 0.154
+2025-03-04 10:21:30,435 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.005 0.322
+2025-03-04 10:21:30,594 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "POST /mail/data HTTP/1.1" 200 - 62 0.099 0.070
+2025-03-04 10:21:30,774 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:30] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.010
+2025-03-04 10:21:31,014 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:31] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.007 0.007
+2025-03-04 10:21:32,453 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:32] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.156
+2025-03-04 10:21:36,134 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:36] "POST /web/action/load HTTP/1.1" 200 - 10 0.014 0.022
+2025-03-04 10:21:36,468 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:36] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 56 0.042 0.062
+2025-03-04 10:21:36,487 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-04 10:21:36,885 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 55 0.051 0.042
+2025-03-04 10:21:36,912 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.112
+2025-03-04 10:21:40,186 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:40] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.052 0.040
+2025-03-04 10:21:40,223 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:40] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.008 0.119
+2025-03-04 10:21:41,764 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.032 0.036
+2025-03-04 10:21:42,118 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:42] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.040
+2025-03-04 10:21:53,300 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:53] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.060 0.043
+2025-03-04 10:21:53,652 53424 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 10:21:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.016
+2025-03-04 10:22:08,850 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 10:22:08,856 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.005s 
+2025-03-04 10:22:08,860 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 10:22:08,865 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 10:24:11,006 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) starting 
+2025-03-04 10:24:11,015 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) done in 0.009s 
+2025-03-04 10:24:11,020 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,026 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Delete Notifications older than 6 Month' (5) completed 
+2025-03-04 10:24:11,039 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) starting 
+2025-03-04 10:24:11,048 53424 INFO odoo odoo.addons.mail.models.mail_scheduled_message: Posting 0 scheduled messages 
+2025-03-04 10:24:11,049 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) done in 0.010s 
+2025-03-04 10:24:11,054 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,060 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Post scheduled messages' (7) completed 
+2025-03-04 10:24:11,070 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 10:24:11,076 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.005s 
+2025-03-04 10:24:11,080 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,086 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 10:24:11,097 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) starting 
+2025-03-04 10:24:11,104 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) done in 0.007s 
+2025-03-04 10:24:11,112 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,118 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: send web push notification' (9) completed 
+2025-03-04 10:24:11,129 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) starting 
+2025-03-04 10:24:11,135 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) done in 0.005s 
+2025-03-04 10:24:11,145 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,149 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: channel member unmute' (10) completed 
+2025-03-04 10:24:11,163 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) starting 
+2025-03-04 10:24:11,170 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) done in 0.007s 
+2025-03-04 10:24:11,174 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,178 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Discuss: users settings unmute' (11) completed 
+2025-03-04 10:24:11,196 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 10:24:11,213 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.016s 
+2025-03-04 10:24:11,218 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 10:24:11,224 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 10:25:11,507 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 10:25:11,522 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.014s 
+2025-03-04 10:25:11,526 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 10:25:11,531 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 10:25:11,543 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 10:25:11,550 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.007s 
+2025-03-04 10:25:11,554 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 10:25:11,558 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 10:25:11,569 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) starting 
+2025-03-04 10:25:11,580 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) done in 0.012s 
+2025-03-04 10:25:11,583 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) processed 0 records, 0 records remaining 
+2025-03-04 10:25:11,587 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Users: Notify About Unregistered Users' (12) completed 
+2025-03-04 10:25:11,597 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 10:25:11,604 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.007s 
+2025-03-04 10:25:11,607 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 10:25:11,612 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 10:32:11,816 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 10:32:11,823 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.006s 
+2025-03-04 10:32:11,851 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 10:32:11,859 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 10:42:12,173 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 10:42:12,192 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.018s 
+2025-03-04 10:42:12,198 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 10:42:12,204 53424 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 10:45:30,718 53424 INFO ? odoo.service.server: Initiating shutdown 
+2025-03-04 10:45:30,719 53424 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-03-04 10:45:31,348 53424 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 6 connections  
+2025-03-04 13:44:03,136 8552 INFO ? odoo: Odoo version 18.0 
+2025-03-04 13:44:03,150 8552 INFO ? odoo: Using configuration file at D:\Projets de dev\odoo\odoo.conf 
+2025-03-04 13:44:03,150 8552 INFO ? odoo: addons paths: ['D:\\Projets de dev\\odoo\\odoo\\addons', 'c:\\users\\modjo\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'd:\\projets de dev\\odoo\\addons', 'd:\\projets de dev\\odoo\\tutorials', 'd:\\projets de dev\\odoo\\odoo\\addons'] 
+2025-03-04 13:44:03,151 8552 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-04 13:44:04,397 8552 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-03-04 13:44:04,403 8552 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-03-04 13:44:06,330 8552 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-63KCENN:8069 
+2025-03-04 13:44:08,427 8552 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-03-04 13:44:08,440 8552 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-04 13:44:08,616 8552 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 13:44:09,598 8552 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-04 13:44:10,305 8552 INFO ? odoo.modules.loading: loading 57 modules... 
+2025-03-04 13:44:10,305 8552 INFO ? odoo.modules.loading: Loading module estate (2/57) 
+2025-03-04 13:44:10,673 8552 INFO ? odoo.modules.registry: module estate: creating or updating database tables 
+2025-03-04 13:44:12,930 8552 WARNING ? odoo.modules.loading: The models ['estate.property'] have no access rules in module estate, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+estate.access_estate_property,access_estate_property,estate.model_estate_property,base.group_user,1,0,0,0 
+2025-03-04 13:44:12,942 8552 INFO ? odoo.modules.loading: Module estate loaded in 2.64s, 40 queries (+40 other) 
+2025-03-04 13:44:18,897 8552 INFO ? odoo.modules.loading: 57 modules loaded in 8.59s, 40 queries (+40 extra) 
+2025-03-04 13:44:19,611 8552 INFO ? odoo.modules.registry: verifying fields for every extended model 
+2025-03-04 13:44:19,679 8552 INFO ? odoo.modules.loading: Modules loaded. 
+2025-03-04 13:44:19,786 8552 INFO ? odoo.modules.registry: Registry loaded in 12.561s 
+2025-03-04 13:44:19,789 8552 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-04 13:44:20,055 8552 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 13:44:20,055 8552 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 13:44:20,290 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:20] "GET /web/service-worker.js HTTP/1.1" 200 - 369 4.655 8.444
+2025-03-04 13:44:21,939 8552 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-04 13:44:21,991 8552 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 13:44:23,405 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:23] "GET /odoo/apps HTTP/1.1" 200 - 99 1.693 12.906
+2025-03-04 13:44:24,501 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 16 0.070 0.235
+2025-03-04 13:44:24,510 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:24] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.147 0.168
+2025-03-04 13:44:24,571 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:24] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.080 0.264
+2025-03-04 13:44:24,909 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:24] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.001 0.006
+2025-03-04 13:44:25,507 8552 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-04 13:44:25,828 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:25] "POST /mail/data HTTP/1.1" 200 - 49 1.676 0.068
+2025-03-04 13:44:26,091 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:26] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-04 13:44:37,460 8552 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carppoling2', defaulting to LGPL-3 
+2025-03-04 13:44:37,641 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:37] "POST /web/action/load HTTP/1.1" 200 - 12 0.169 13.388
+2025-03-04 13:44:38,202 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 56 0.186 0.058
+2025-03-04 13:44:38,224 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2025-03-04 13:44:38,628 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 55 0.075 0.029
+2025-03-04 13:44:39,690 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:39] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.026 1.139
+2025-03-04 13:44:47,913 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:47] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.050 0.128
+2025-03-04 13:44:47,987 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:47] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.007 0.217
+2025-03-04 13:44:52,229 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:52] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.103 0.044
+2025-03-04 13:44:52,682 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:52] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.017 0.124
+2025-03-04 13:44:52,844 8552 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:52] "GET /test_exceptions/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-03-04 13:44:53,155 8552 INFO ? werkzeug: 127.0.0.1 - - [04/Mar/2025 13:44:53] "GET /website_project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2025-03-04 13:45:03,054 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:03] "POST /web/dataset/call_button/ir.module.module/more_info HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-04 13:45:03,372 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:03] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 7 0.006 0.052
+2025-03-04 13:45:03,601 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:03] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 12 0.063 0.149
+2025-03-04 13:45:04,028 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:04] "GET /web/image/ir.module.module/629/icon_image?unique=1741095852000 HTTP/1.1" 200 - 3 0.001 0.008
+2025-03-04 13:45:06,633 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) starting 
+2025-03-04 13:45:07,293 8552 INFO odoo odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 2 removed 
+2025-03-04 13:45:07,624 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 13:45:07,665 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.040s 
+2025-03-04 13:45:07,671 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 13:45:07,715 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 13:45:07,731 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 13:45:07,842 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.111s 
+2025-03-04 13:45:07,846 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 13:45:07,850 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 13:45:07,860 8552 INFO odoo odoo.models.unlink: User #1 deleted res.config.settings records with IDs: [1, 2] 
+2025-03-04 13:45:07,861 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 13:45:07,891 8552 INFO odoo odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2025-03-04 13:45:07,950 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.089s 
+2025-03-04 13:45:08,113 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 13:45:08,118 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 13:45:08,170 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) starting 
+2025-03-04 13:45:08,208 8552 INFO odoo odoo.addons.base.models.res_users: GC 'res.users.apikeys' delete 0 entries 
+2025-03-04 13:45:08,232 8552 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 16 entries 
+2025-03-04 13:45:08,235 8552 INFO odoo odoo.addons.base.models.res_device: GC device logs delete 0 entries 
+2025-03-04 13:45:08,254 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) done in 0.083s 
+2025-03-04 13:45:08,258 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) processed 0 records, 0 records remaining 
+2025-03-04 13:45:08,262 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) completed 
+2025-03-04 13:45:08,272 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 13:45:08,322 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.049s 
+2025-03-04 13:45:08,326 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 13:45:08,331 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 13:45:08,341 8552 INFO odoo odoo.models.unlink: User #1 deleted base.module.update records with IDs: [12, 13] 
+2025-03-04 13:45:08,342 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 13:45:08,490 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.148s 
+2025-03-04 13:45:08,494 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 13:45:08,500 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 13:45:08,511 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 13:45:08,536 8552 INFO odoo odoo.addons.base.models.res_users: GC 'auth_totp.device' delete 0 entries 
+2025-03-04 13:45:08,560 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.049s 
+2025-03-04 13:45:08,563 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 13:45:08,568 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 13:45:08,581 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) starting 
+2025-03-04 13:45:08,626 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) done in 0.045s 
+2025-03-04 13:45:08,628 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) processed 0 records, 0 records remaining 
+2025-03-04 13:45:08,632 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Portal Users Deletion' (2) completed 
+2025-03-04 13:45:08,642 8552 INFO odoo odoo.models.unlink: User #1 deleted bus.bus records with IDs: [242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295] 
+2025-03-04 13:45:09,221 8552 INFO odoo odoo.addons.sms.models.sms_sms: GC'd 0 sms marked for deletion 
+2025-03-04 13:45:09,808 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) done in 3.174s 
+2025-03-04 13:45:09,813 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) processed 0 records, 0 records remaining 
+2025-03-04 13:45:09,818 8552 INFO odoo odoo.addons.base.models.ir_cron: Job 'Base: Auto-vacuum internal data' (1) completed 
+2025-03-04 13:45:15,414 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:15] "POST /web/action/load HTTP/1.1" 200 - 10 0.009 0.006
+2025-03-04 13:45:15,762 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.009
+2025-03-04 13:45:15,827 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:15] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.044 0.030
+2025-03-04 13:45:15,850 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:15] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.087
+2025-03-04 13:45:19,748 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:19] "POST /web/action/load HTTP/1.1" 200 - 9 0.013 0.012
+2025-03-04 13:45:22,406 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:22] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 396 0.402 1.930
+2025-03-04 13:45:22,953 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:22] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 125 0.478 0.051
+2025-03-04 13:45:23,413 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:23] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.002
+2025-03-04 13:45:23,510 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:23] "POST /base_setup/data HTTP/1.1" 200 - 6 0.049 0.004
+2025-03-04 13:45:26,226 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:26] "POST /web/action/load HTTP/1.1" 200 - 10 0.058 0.011
+2025-03-04 13:45:26,694 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:26] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 61 0.051 0.074
+2025-03-04 13:45:26,848 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:26] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.003 0.007
+2025-03-04 13:45:27,017 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:27] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.005
+2025-03-04 13:45:36,530 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:36] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 2 0.003 0.005
+2025-03-04 13:45:46,763 8552 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 13:45:46] "POST /web/dataset/call_kw/ir.model/web_read HTTP/1.1" 200 - 19 0.090 0.019
+2025-03-04 13:46:39,075 8552 INFO ? odoo.service.server: Initiating shutdown 
+2025-03-04 13:46:39,076 8552 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-03-04 15:24:51,222 26100 INFO ? odoo: Odoo version 18.0 
+2025-03-04 15:24:51,222 26100 INFO ? odoo: Using configuration file at D:\Projets de dev\odoo\odoo.conf 
+2025-03-04 15:24:51,222 26100 INFO ? odoo: addons paths: ['D:\\Projets de dev\\odoo\\odoo\\addons', 'c:\\users\\modjo\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'd:\\projets de dev\\odoo\\addons', 'd:\\projets de dev\\odoo\\tutorials', 'd:\\projets de dev\\odoo\\odoo\\addons'] 
+2025-03-04 15:24:51,223 26100 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-04 15:24:51,942 26100 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-03-04 15:24:51,947 26100 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-03-04 15:24:52,902 26100 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-63KCENN:8069 
+2025-03-04 15:24:54,199 26100 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-03-04 15:24:54,206 26100 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-04 15:24:54,289 26100 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 15:24:54,705 26100 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-04 15:24:55,128 26100 INFO ? odoo.modules.loading: loading 57 modules... 
+2025-03-04 15:24:55,128 26100 INFO ? odoo.modules.loading: Loading module estate (2/57) 
+2025-03-04 15:24:55,188 26100 INFO ? odoo.modules.registry: module estate: creating or updating database tables 
+2025-03-04 15:24:55,257 26100 WARNING ? odoo.modules.loading: The models ['estate.property'] have no access rules in module estate, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+estate.access_estate_property,access_estate_property,estate.model_estate_property,base.group_user,1,0,0,0 
+2025-03-04 15:24:55,265 26100 INFO ? odoo.modules.loading: Module estate loaded in 0.14s, 29 queries (+29 other) 
+2025-03-04 15:24:57,003 26100 INFO ? odoo.modules.loading: 57 modules loaded in 1.87s, 29 queries (+29 extra) 
+2025-03-04 15:24:57,378 26100 INFO ? odoo.modules.registry: verifying fields for every extended model 
+2025-03-04 15:24:57,393 26100 INFO ? odoo.modules.loading: Modules loaded. 
+2025-03-04 15:24:57,397 26100 INFO ? odoo.modules.registry: Registry loaded in 3.398s 
+2025-03-04 15:24:57,399 26100 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-04 15:24:57,431 26100 INFO odoo odoo.addons.base.models.res_device: User 2 inserts device log (LnhV_MsE_5Q4kWQvDEQU5tSqtvhW4m2D5eFwD03Xoe) 
+2025-03-04 15:24:57,505 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:24:57] "GET /web/service-worker.js HTTP/1.1" 200 - 357 0.423 3.135
+2025-03-04 15:25:10,364 26100 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carppoling2', defaulting to LGPL-3 
+2025-03-04 15:25:10,610 26100 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-04 15:25:10,617 26100 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 15:25:11,572 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:11] "GET /odoo/action-20/520 HTTP/1.1" 200 - 89 0.115 11.185
+2025-03-04 15:25:12,758 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:12] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.014 0.430
+2025-03-04 15:25:12,831 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:12] "POST /web/action/load HTTP/1.1" 200 - 11 0.086 0.548
+2025-03-04 15:25:12,902 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:12] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.145 0.443
+2025-03-04 15:25:13,035 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:13] "POST /mail/data HTTP/1.1" 200 - 49 0.252 0.584
+2025-03-04 15:25:13,038 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:13] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.016 0.702
+2025-03-04 15:25:13,056 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:13] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 69 0.087 0.122
+2025-03-04 15:25:13,432 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:13] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.003 0.016
+2025-03-04 15:25:13,474 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:13] "POST /web/dataset/call_kw/ir.model/web_read HTTP/1.1" 200 - 21 0.040 0.037
+2025-03-04 15:25:13,793 26100 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-04 15:25:14,490 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:14] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.009
+2025-03-04 15:25:23,416 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:23] "POST /web/action/load HTTP/1.1" 200 - 10 0.013 0.012
+2025-03-04 15:25:23,738 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:23] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 50 0.029 0.050
+2025-03-04 15:25:23,752 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.001 0.004
+2025-03-04 15:25:24,165 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 55 0.061 0.038
+2025-03-04 15:25:24,827 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:24] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.012 0.746
+2025-03-04 15:25:33,527 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.042 0.023
+2025-03-04 15:25:33,719 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:33] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 2 0.002 0.005
+2025-03-04 15:25:36,074 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 53 0.069 0.031
+2025-03-04 15:25:36,413 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:36] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.008 0.009
+2025-03-04 15:25:45,387 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:45] "POST /web/dataset/call_button/ir.module.module/more_info HTTP/1.1" 200 - 1 0.002 0.007
+2025-03-04 15:25:45,746 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:45] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 7 0.006 0.017
+2025-03-04 15:25:46,047 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:46] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 12 0.013 0.061
+2025-03-04 15:25:46,190 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:46] "GET /web/image/ir.module.module/629/icon_image?unique=1741101895000 HTTP/1.1" 200 - 3 0.003 0.007
+2025-03-04 15:25:53,730 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2025-03-04 15:25:53,745 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.015s 
+2025-03-04 15:25:53,752 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2025-03-04 15:25:53,759 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2025-03-04 15:25:53,771 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2025-03-04 15:25:53,780 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.009s 
+2025-03-04 15:25:53,784 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2025-03-04 15:25:53,791 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2025-03-04 15:25:53,801 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2025-03-04 15:25:53,811 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.009s 
+2025-03-04 15:25:54,029 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2025-03-04 15:25:54,034 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2025-03-04 15:25:54,092 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) starting 
+2025-03-04 15:25:54,101 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) done in 0.009s 
+2025-03-04 15:25:54,106 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) processed 0 records, 0 records remaining 
+2025-03-04 15:25:54,110 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Payment: Post-process transactions' (17) completed 
+2025-03-04 15:25:54,121 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2025-03-04 15:25:54,134 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.013s 
+2025-03-04 15:25:54,138 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2025-03-04 15:25:54,141 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2025-03-04 15:25:54,150 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2025-03-04 15:25:54,157 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.007s 
+2025-03-04 15:25:54,160 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2025-03-04 15:25:54,163 26100 INFO odoo odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2025-03-04 15:25:56,885 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:56] "POST /web/action/load HTTP/1.1" 200 - 9 0.007 0.010
+2025-03-04 15:25:57,240 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:57] "POST /web/dataset/call_kw/base.module.update/get_views HTTP/1.1" 200 - 12 0.092 0.013
+2025-03-04 15:25:57,331 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:57] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 2 0.003 0.004
+2025-03-04 15:25:59,356 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:25:59] "POST /web/dataset/call_kw/base.module.update/web_save HTTP/1.1" 200 - 5 0.099 0.008
+2025-03-04 15:25:59,521 26100 INFO odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2025-03-04 15:26:01,976 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:01] "POST /web/dataset/call_button/base.module.update/update_module HTTP/1.1" 200 - 1546 1.625 0.836
+2025-03-04 15:26:04,749 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:04] "GET /odoo/apps/629/ir.module.module/629 HTTP/1.1" 200 - 14 0.012 0.034
+2025-03-04 15:26:05,342 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "POST /web/action/load_breadcrumbs HTTP/1.1" 200 - 13 0.015 0.018
+2025-03-04 15:26:05,397 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "POST /mail/data HTTP/1.1" 200 - 29 0.028 0.044
+2025-03-04 15:26:05,436 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 2 0.000 0.018
+2025-03-04 15:26:05,445 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 7 0.016 0.010
+2025-03-04 15:26:05,469 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.009 0.022
+2025-03-04 15:26:05,619 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 10 0.011 0.032
+2025-03-04 15:26:05,683 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 3 0.003 0.006
+2025-03-04 15:26:05,776 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:05] "GET /web/image/ir.module.module/629/icon_image?unique=1741101959000 HTTP/1.1" 200 - 3 0.001 0.008
+2025-03-04 15:26:06,059 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:06] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.002 0.019
+2025-03-04 15:26:07,153 26100 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:07] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.002 0.009
+2025-03-04 15:26:23,263 26100 INFO ? odoo.service.server: Initiating shutdown 
+2025-03-04 15:26:23,264 26100 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-03-04 15:26:23,606 26100 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 7 connections  
+2025-03-04 15:26:42,506 9016 INFO ? odoo: Odoo version 18.0 
+2025-03-04 15:26:42,507 9016 INFO ? odoo: Using configuration file at D:\Projets de dev\odoo\odoo.conf 
+2025-03-04 15:26:42,507 9016 INFO ? odoo: addons paths: ['D:\\Projets de dev\\odoo\\odoo\\addons', 'c:\\users\\modjo\\appdata\\local\\openerp s.a\\odoo\\addons\\18.0', 'd:\\projets de dev\\odoo\\addons', 'd:\\projets de dev\\odoo\\tutorials', 'd:\\projets de dev\\odoo\\odoo\\addons'] 
+2025-03-04 15:26:42,507 9016 INFO ? odoo: database: odoo@localhost:5432 
+2025-03-04 15:26:42,728 9016 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2025-03-04 15:26:42,733 9016 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltoimage to generate images from html. 
+2025-03-04 15:26:43,315 9016 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-63KCENN:8069 
+2025-03-04 15:26:43,541 9016 INFO ? odoo.modules.loading: loading 1 modules... 
+2025-03-04 15:26:43,548 9016 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2025-03-04 15:26:43,582 9016 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 15:26:43,590 9016 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-04 15:26:43,624 9016 INFO ? odoo.modules.loading: loading 57 modules... 
+2025-03-04 15:26:43,624 9016 INFO ? odoo.modules.loading: Loading module estate (2/57) 
+2025-03-04 15:26:43,710 9016 INFO ? odoo.modules.registry: module estate: creating or updating database tables 
+2025-03-04 15:26:44,474 9016 WARNING ? odoo.modules.loading: The models ['estate.property'] have no access rules in module estate, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+estate.access_estate_property,access_estate_property,estate.model_estate_property,base.group_user,1,0,0,0 
+2025-03-04 15:26:44,481 9016 INFO ? odoo.modules.loading: Module estate loaded in 0.86s, 49 queries (+49 other) 
+2025-03-04 15:26:46,210 9016 INFO ? odoo.modules.loading: 57 modules loaded in 2.59s, 49 queries (+49 extra) 
+2025-03-04 15:26:46,732 9016 INFO ? odoo.modules.registry: verifying fields for every extended model 
+2025-03-04 15:26:46,754 9016 INFO ? odoo.modules.loading: Modules loaded. 
+2025-03-04 15:26:46,759 9016 INFO ? odoo.modules.registry: Registry loaded in 3.319s 
+2025-03-04 15:26:46,760 9016 INFO odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2025-03-04 15:26:46,809 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:46] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 371 1.106 2.265
+2025-03-04 15:26:47,282 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:47] "POST /bus/get_autovacuum_info HTTP/1.1" 200 - 4 0.012 0.114
+2025-03-04 15:26:47,363 9016 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2025-03-04 15:26:48,275 9016 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'carppoling2', defaulting to LGPL-3 
+2025-03-04 15:26:48,533 9016 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'carpooling', defaulting to LGPL-3 
+2025-03-04 15:26:48,555 9016 WARNING odoo odoo.modules.module: Missing `license` key in manifest for 'estate', defaulting to LGPL-3 
+2025-03-04 15:26:49,533 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:49] "GET /odoo/apps/629/ir.module.module/629 HTTP/1.1" 200 - 88 0.113 2.011
+2025-03-04 15:26:49,792 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:49] "GET /web/manifest.webmanifest HTTP/1.1" 200 - 9 0.013 0.013
+2025-03-04 15:26:50,126 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "POST /web/action/load_breadcrumbs HTTP/1.1" 200 - 14 0.025 0.014
+2025-03-04 15:26:50,429 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 50 0.087 0.092
+2025-03-04 15:26:50,471 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "GET /bus/websocket_worker_bundle?v=18.0-3 HTTP/1.1" 304 - 4 0.010 0.010
+2025-03-04 15:26:50,477 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "POST /mail/data HTTP/1.1" 200 - 48 0.153 0.076
+2025-03-04 15:26:50,480 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.064 0.130
+2025-03-04 15:26:50,852 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "GET /websocket?version=18.0-3 HTTP/1.1" 101 - 1 0.002 0.009
+2025-03-04 15:26:50,862 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:50] "POST /web/dataset/call_kw/ir.module.module/web_read HTTP/1.1" 200 - 13 0.030 0.066
+2025-03-04 15:26:51,297 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:51] "GET /web/image/ir.module.module/629/icon_image?unique=1741102004000 HTTP/1.1" 200 - 3 0.004 0.028
+2025-03-04 15:26:52,141 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:52] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.001 0.004
+2025-03-04 15:26:59,464 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:26:59] "POST /web/action/load HTTP/1.1" 200 - 9 0.018 0.027
+2025-03-04 15:27:01,211 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:01] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 396 0.209 1.322
+2025-03-04 15:27:01,401 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:01] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 125 0.104 0.063
+2025-03-04 15:27:01,849 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:01] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.004
+2025-03-04 15:27:01,866 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:01] "POST /base_setup/data HTTP/1.1" 200 - 6 0.006 0.005
+2025-03-04 15:27:07,545 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:07] "POST /web/action/load HTTP/1.1" 200 - 10 0.009 0.013
+2025-03-04 15:27:08,002 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:08] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 61 0.048 0.065
+2025-03-04 15:27:08,160 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:08] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2025-03-04 15:27:08,328 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:08] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.003
+2025-03-04 15:27:18,500 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:18] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 2 0.004 0.006
+2025-03-04 15:27:20,463 9016 INFO odoo werkzeug: 127.0.0.1 - - [04/Mar/2025 15:27:20] "POST /web/dataset/call_kw/ir.model/web_read HTTP/1.1" 200 - 19 0.017 0.019
+2025-03-04 15:28:01,087 9016 INFO ? odoo.service.server: Initiating shutdown 
+2025-03-04 15:28:01,087 9016 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2025-03-04 15:28:02,194 9016 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 5 connections  
